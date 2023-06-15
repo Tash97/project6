@@ -1,0 +1,33 @@
+body{
+    background-image: url("images/me_background.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#navbar{
+    height: 18vh;
+}
+#form{
+    background-image: linear-gradient(to right, #f07d84, #9e8ff6);
+}
+#name{
+    background-color: transparent;
+    outline: none;
+}
+#name::placeholder{
+    color: #675fa2;
+}
+#email{
+    background-color: transparent;
+    outline: none;
+}
+#email::placeholder{
+    color: #675fa2;
+}
+.hyperlinks{
+    text-decoration: none;
+    color: black;
+}
+.hyperlinks:hover{
+    text-decoration: none;
+    color: black;
+}
